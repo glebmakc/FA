@@ -1,4 +1,4 @@
-```python
+```python3
 #1 задача
 import numpy as np
 c=[]
