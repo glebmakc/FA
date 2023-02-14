@@ -1,3 +1,4 @@
+```python
 #1 задача
 import numpy as np
 c=[]
@@ -100,3 +101,4 @@ def nearest(lst, target):
 arr = np.random.randint(0, 101, 20)
 n = int(input())
 print(nearest(arr,n))
+```
