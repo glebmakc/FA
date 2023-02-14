@@ -100,3 +100,11 @@ def nearest(lst, target):
 arr = np.random.randint(0, 101, 20)
 n = int(input())
 print(nearest(arr,n))
+
+#12 задача
+arr1 = np.random.randint(0, 11, (4, 7))
+arr2 = np.random.randint(0, 11, (4, 7))# arr = np.zeros((4, 7))
+for i in range(4):
+    for j in range(7):
+        arr[i][j] = max(arr1[i, j], arr2[i, j])
+print(arr)
